@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Team 7: VC Formal Project Timeline" company="Portland State University " webLink="http://vcformal.com/" view-date="2023-01-08" view-index="0" gantt-divider-location="705" resource-divider-location="335" version="3.2.3247" locale="en_US">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd6" name="Duration" width="88" order="0"/>
+        <field id="tpd3" name="Name" width="352" order="1"/>
+        <field id="tpd4" name="Begin date" width="131" order="2"/>
+        <field id="tpd5" name="End date" width="118" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#990099 #009933 #990000 #0000ff #f4f4f4 #006666 #006633 #9999ff #99ff99 #99ccff]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="227" order="0"/>
+        <field id="1" name="Default role" width="104" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="ECE 412 Deliverables" color="#8cb6ce" meeting="false" start="2023-01-09" duration="75" complete="67" thirdDate="2023-01-09" thirdDate-constraint="1" expand="true">
+            <task id="16" name="Download VC Formal" color="#8cb6ce" meeting="false" start="2023-01-09" duration="7" complete="100" thirdDate="2023-01-04" thirdDate-constraint="0" expand="true"/>
+            <task id="65" name="Week 1 Progress Report" color="#8cb6ce" meeting="false" start="2023-01-09" duration="6" complete="100" thirdDate="2023-01-11" thirdDate-constraint="0" expand="true">
+                <depend id="111" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="11" name="Dr. Song Check-in 1" color="#8cb6ce" meeting="false" start="2023-01-12" duration="1" complete="100" thirdDate="2022-10-19" thirdDate-constraint="0" expand="true"/>
+            <task id="10" name="1min Elevator Pitch" color="#8cb6ce" meeting="false" start="2023-01-13" duration="1" complete="100" thirdDate="2022-10-19" thirdDate-constraint="0" expand="true"/>
+            <task id="9" name="Project Proposal: Rough Draft" color="#8cb6ce" meeting="false" start="2023-01-16" duration="10" complete="100" thirdDate="2022-10-19" thirdDate-constraint="0" expand="true"/>
+            <task id="66" name="Week 2 PRogress Report" color="#8cb6ce" meeting="false" start="2023-01-16" duration="6" complete="100" thirdDate="2023-01-11" thirdDate-constraint="0" expand="true">
+                <depend id="111" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="13" name="Team Check-in 2" color="#8cb6ce" meeting="false" start="2023-01-17" duration="1" complete="100" thirdDate="2023-01-04" thirdDate-constraint="0" expand="true"/>
+            <task id="12" name="Dr. Song Check-in 2" color="#8cb6ce" meeting="false" start="2023-01-19" duration="1" complete="100" thirdDate="2022-10-19" thirdDate-constraint="0" expand="true"/>
+            <task id="67" name="Week 3 Progress Report" color="#8cb6ce" meeting="false" start="2023-01-23" duration="6" complete="100" thirdDate="2023-01-08" thirdDate-constraint="0" expand="true">
+                <depend id="111" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="14" name="Team Check-in 3" color="#8cb6ce" meeting="false" start="2023-01-24" duration="1" complete="100" thirdDate="2023-01-04" thirdDate-constraint="0" expand="true"/>
+            <task id="75" name="Dr. Song Check-in 3" color="#8cb6ce" meeting="false" start="2023-01-26" duration="1" complete="100" thirdDate="2023-01-23" thirdDate-constraint="0" expand="true"/>
+            <task id="68" name="Week 4 Progress Report" color="#8cb6ce" meeting="false" start="2023-01-30" duration="6" complete="100" thirdDate="2023-01-08" thirdDate-constraint="0" expand="true">
+                <depend id="111" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="76" name="Team Check-in 4" color="#8cb6ce" meeting="false" start="2023-01-31" duration="1" complete="100" thirdDate="2023-01-19" thirdDate-constraint="0" expand="true"/>
+            <task id="77" name="Dr. Song Check-in 4" color="#8cb6ce" meeting="false" start="2023-02-02" duration="1" complete="100" thirdDate="2023-01-19" thirdDate-constraint="0" expand="true"/>
+            <task id="63" name="Project Proposal: Final Draft" color="#8cb6ce" meeting="false" start="2023-01-30" duration="11" complete="100" thirdDate="2023-01-11" thirdDate-constraint="0" expand="true"/>
+            <task id="69" name="Week 5 Progress Report" color="#8cb6ce" meeting="false" start="2023-02-06" duration="6" complete="100" thirdDate="2023-01-08" thirdDate-constraint="0" expand="true">
+                <depend id="111" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="101" name="Team Check-in 5" color="#8cb6ce" meeting="false" start="2023-02-07" duration="1" complete="100" thirdDate="2023-02-10" thirdDate-constraint="0" expand="true"/>
+            <task id="102" name="Dr. Song Check-in 5" color="#8cb6ce" meeting="false" start="2023-02-09" duration="1" complete="100" thirdDate="2023-01-28" thirdDate-constraint="0" expand="true"/>
+            <task id="70" name="Week 6 Progress Report" color="#8cb6ce" meeting="false" start="2023-02-13" duration="6" complete="100" thirdDate="2023-01-08" thirdDate-constraint="0" expand="true">
+                <depend id="111" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="100" name="Team Check-in @ PSU" color="#8cb6ce" meeting="false" start="2023-02-17" duration="1" complete="100" thirdDate="2023-02-10" thirdDate-constraint="0" expand="true"/>
+            <task id="103" name="Dr. Song Check-in 6" color="#8cb6ce" meeting="false" start="2023-02-16" duration="1" complete="100" thirdDate="2023-01-28" thirdDate-constraint="0" expand="true"/>
+            <task id="71" name="Week 7 Progress Report" color="#8cb6ce" meeting="false" start="2023-02-20" duration="6" complete="0" thirdDate="2023-01-08" thirdDate-constraint="0" expand="true">
+                <depend id="111" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="104" name="Team Check-in 7" color="#8cb6ce" meeting="false" start="2023-02-21" duration="1" complete="0" thirdDate="2023-01-28" thirdDate-constraint="0" expand="true"/>
+            <task id="105" name="Dr. Song Check-in 7" color="#8cb6ce" meeting="false" start="2023-02-23" duration="1" complete="0" thirdDate="2023-01-28" thirdDate-constraint="0" expand="true"/>
+            <task id="72" name="Week 8 Progress Report" color="#8cb6ce" meeting="false" start="2023-02-27" duration="6" complete="0" thirdDate="2023-01-08" thirdDate-constraint="0" expand="true">
+                <depend id="111" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="107" name="Team Check-in 8" color="#8cb6ce" meeting="false" start="2023-02-28" duration="1" complete="0" thirdDate="2023-02-13" thirdDate-constraint="0" expand="true"/>
+            <task id="108" name="Dr. Song Check-in 8" color="#8cb6ce" meeting="false" start="2023-03-02" duration="1" complete="0" thirdDate="2023-02-13" thirdDate-constraint="0" expand="true"/>
+            <task id="73" name="Week 9 Progress Report" color="#8cb6ce" meeting="false" start="2023-03-06" duration="6" complete="0" thirdDate="2023-01-08" thirdDate-constraint="0" expand="true">
+                <depend id="111" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="109" name="Team Check-in 9" color="#8cb6ce" meeting="false" start="2023-03-07" duration="1" complete="0" thirdDate="2023-02-28" thirdDate-constraint="0" expand="true"/>
+            <task id="110" name="Dr. Song Check-in 9" color="#8cb6ce" meeting="false" start="2023-03-09" duration="1" complete="0" thirdDate="2023-02-28" thirdDate-constraint="0" expand="true"/>
+            <task id="74" name="Week 10 Progress Report" color="#8cb6ce" meeting="false" start="2023-03-13" duration="4" complete="0" thirdDate="2023-01-08" thirdDate-constraint="0" expand="true">
+                <depend id="111" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="111" name="Upload Weekly Reports" color="#8cb6ce" meeting="false" start="2023-03-17" duration="1" complete="0" thirdDate="2023-02-25" thirdDate-constraint="0" expand="true">
+                <depend id="64" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="64" name="SHARED Individual and Team Assessments" color="#8cb6ce" meeting="false" start="2023-03-18" duration="7" complete="0" thirdDate="2023-01-11" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="6" name="Productivity App Tutorial Set" color="#000000" meeting="false" start="2023-01-15" duration="44" complete="50" thirdDate="2023-01-23" thirdDate-constraint="0" expand="true">
+            <task id="2" name="SEQ App" color="#cccccc" meeting="false" start="2023-01-15" duration="9" complete="100" thirdDate="2022-10-19" thirdDate-constraint="0" expand="true">
+                <task id="15" name="Familiarize ourselves w/ App" color="#cccccc" meeting="false" start="2023-01-15" duration="2" complete="100" thirdDate="2023-01-04" thirdDate-constraint="0" expand="true">
+                    <depend id="79" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="79" name="Develop Example/s" color="#cccccc" meeting="false" start="2023-01-17" duration="2" complete="100" thirdDate="2023-01-16" thirdDate-constraint="0" expand="true">
+                    <depend id="17" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="17" name="Create Written Tutorial" color="#cccccc" meeting="false" start="2023-01-19" duration="3" complete="100" thirdDate="2023-01-02" thirdDate-constraint="0" expand="true">
+                    <depend id="18" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="18" name="Create Video Tutorial" color="#cccccc" meeting="false" start="2023-01-22" duration="1" complete="100" thirdDate="2023-01-09" thirdDate-constraint="0" expand="true">
+                    <depend id="78" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="78" name="Update Sponsor w/ Progress" color="#cccccc" meeting="false" start="2023-01-23" duration="1" complete="100" thirdDate="2023-01-09" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="4" name="FRV App" color="#ff9966" meeting="false" start="2023-01-22" duration="9" complete="0" thirdDate="2023-01-22" thirdDate-constraint="0" expand="true">
+                <task id="5" name="Familiarize Ourselves w/ app" color="#ff9966" meeting="false" start="2023-01-22" duration="2" complete="0" thirdDate="2023-01-23" thirdDate-constraint="0" expand="true">
+                    <depend id="80" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="80" name="Develop Example/s" color="#ff9933" meeting="false" start="2023-01-24" duration="2" complete="0" thirdDate="2023-01-16" thirdDate-constraint="0" expand="true">
+                    <depend id="24" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="24" name="Create Written Tutorial" color="#ff9966" meeting="false" start="2023-01-26" duration="3" complete="0" thirdDate="2023-01-09" thirdDate-constraint="0" expand="true">
+                    <depend id="25" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="25" name="Create Video Tutorial" color="#ff9966" meeting="false" start="2023-01-29" duration="1" complete="0" thirdDate="2023-01-09" thirdDate-constraint="0" expand="true">
+                    <depend id="81" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="81" name="Update Sponsor w/ Progress" color="#ff9933" meeting="false" start="2023-01-30" duration="1" complete="0" thirdDate="2023-01-23" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="19" name="AEP App" color="#ff99ff" meeting="false" start="2023-01-29" duration="9" complete="100" thirdDate="2023-01-29" thirdDate-constraint="0" expand="true">
+                <task id="26" name="Familiarize Ourselves w/ app" color="#ff99ff" meeting="false" start="2023-01-29" duration="2" complete="100" thirdDate="2023-01-22" thirdDate-constraint="0" expand="true">
+                    <depend id="82" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="82" name="Develop Example/s" color="#ff99ff" meeting="false" start="2023-01-31" duration="2" complete="100" thirdDate="2023-01-23" thirdDate-constraint="0" expand="true">
+                    <depend id="27" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="27" name="Create Written Tutorial" color="#ff99ff" meeting="false" start="2023-02-02" duration="3" complete="100" thirdDate="2023-01-30" thirdDate-constraint="0" expand="true">
+                    <depend id="28" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="28" name="Create Video Tutorial" color="#ff99ff" meeting="false" start="2023-02-05" duration="1" complete="100" thirdDate="2023-01-28" thirdDate-constraint="0" expand="true">
+                    <depend id="83" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="83" name="Update Sponsor w/ Progress" color="#ff99ff" meeting="false" start="2023-02-06" duration="1" complete="100" thirdDate="2023-01-30" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="20" name="FCA App" color="#99ff99" meeting="false" start="2023-02-05" duration="9" complete="0" thirdDate="2023-02-05" thirdDate-constraint="0" expand="true">
+                <task id="29" name="Familiarize Ourselves w/ app" color="#99ff99" meeting="false" start="2023-02-05" duration="2" complete="0" thirdDate="2023-01-22" thirdDate-constraint="0" expand="true">
+                    <depend id="84" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="84" name="Develop Example/s" color="#99ff99" meeting="false" start="2023-02-07" duration="2" complete="0" thirdDate="2023-01-23" thirdDate-constraint="0" expand="true">
+                    <depend id="30" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="30" name="Create Written Tutorial" color="#99ff99" meeting="false" start="2023-02-09" duration="3" complete="0" thirdDate="2023-02-06" thirdDate-constraint="0" expand="true">
+                    <depend id="31" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="31" name="Create Video Tutorial" color="#99ff99" meeting="false" start="2023-02-12" duration="1" complete="0" thirdDate="2023-02-11" thirdDate-constraint="0" expand="true">
+                    <depend id="85" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="85" name="Update Sponsor w/ Progress" color="#99ff99" meeting="false" start="2023-02-13" duration="1" complete="0" thirdDate="2023-01-30" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="22" name="CC App" color="#99ccff" meeting="false" start="2023-02-12" duration="9" complete="0" thirdDate="2023-01-22" thirdDate-constraint="0" expand="true">
+                <task id="32" name="Familiarize Ourselves w/ app" color="#99ccff" meeting="false" start="2023-02-12" duration="2" complete="0" thirdDate="2023-01-22" thirdDate-constraint="0" expand="true">
+                    <depend id="86" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="86" name="Develop Example/s" color="#99ccff" meeting="false" start="2023-02-14" duration="2" complete="0" thirdDate="2023-01-30" thirdDate-constraint="0" expand="true">
+                    <depend id="33" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="33" name="Create Written Tutorial" color="#99ccff" meeting="false" start="2023-02-16" duration="3" complete="0" thirdDate="2023-01-30" thirdDate-constraint="0" expand="true">
+                    <depend id="34" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="34" name="Create Video Tutorial" color="#99ccff" meeting="false" start="2023-02-19" duration="1" complete="0" thirdDate="2023-02-04" thirdDate-constraint="0" expand="true">
+                    <depend id="87" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="87" name="Update Sponsor w/ Progress" color="#99ccff" meeting="false" start="2023-02-20" duration="1" complete="0" thirdDate="2023-02-06" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="21" name="FXP App" color="#9999ff" meeting="false" start="2023-02-19" duration="9" complete="100" thirdDate="2023-01-22" thirdDate-constraint="0" expand="true">
+                <task id="35" name="Familiarize Ourselves w/ app" color="#9999ff" meeting="false" start="2023-02-19" duration="2" complete="100" thirdDate="2023-01-22" thirdDate-constraint="0" expand="true">
+                    <depend id="88" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="88" name="Develop Example/s" color="#9999ff" meeting="false" start="2023-02-21" duration="2" complete="100" thirdDate="2023-01-30" thirdDate-constraint="0" expand="true">
+                    <depend id="36" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="36" name="Create Written Tutorial" color="#9999ff" meeting="false" start="2023-02-23" duration="3" complete="100" thirdDate="2023-01-30" thirdDate-constraint="0" expand="true">
+                    <depend id="37" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="37" name="Create Video Tutorial" color="#9999ff" meeting="false" start="2023-02-26" duration="1" complete="100" thirdDate="2023-02-04" thirdDate-constraint="0" expand="true">
+                    <depend id="89" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="89" name="Update Sponsor w/ Progress" color="#9999ff" meeting="false" start="2023-02-27" duration="1" complete="100" thirdDate="2023-02-06" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="7" name="High Value App Tutorial Set" color="#000000" meeting="false" start="2023-02-26" duration="72" complete="5" thirdDate="2023-01-23" thirdDate-constraint="0" expand="true">
+            <task id="8" name="FPV App" color="#006666" meeting="false" start="2023-02-26" duration="16" complete="25" thirdDate="2023-01-23" thirdDate-constraint="0" expand="true">
+                <task id="38" name="Familiarize Ourselves w/ app" color="#006666" meeting="false" start="2023-02-26" duration="4" complete="100" thirdDate="2023-01-22" thirdDate-constraint="0" expand="true">
+                    <depend id="90" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="90" name="Develop Example/s" color="#006666" meeting="false" start="2023-03-02" duration="4" complete="0" thirdDate="2023-02-06" thirdDate-constraint="0" expand="true">
+                    <depend id="39" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="39" name="Create Written Tutorial" color="#006666" meeting="false" start="2023-03-06" duration="6" complete="0" thirdDate="2023-02-06" thirdDate-constraint="0" expand="true">
+                    <depend id="40" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="40" name="Create Video Tutorial" color="#006666" meeting="false" start="2023-03-12" duration="1" complete="0" thirdDate="2023-02-11" thirdDate-constraint="0" expand="true">
+                    <depend id="91" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="91" name="Update Sponsor w/ Progress" color="#006666" meeting="false" start="2023-03-13" duration="1" complete="0" thirdDate="2023-02-13" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="41" name="FSV App" color="#0000ff" meeting="false" start="2023-03-12" duration="16" complete="0" thirdDate="2023-01-22" thirdDate-constraint="0" expand="true">
+                <task id="42" name="Familiarize Ourselves w/ app" color="#0000ff" meeting="false" start="2023-03-12" duration="4" complete="0" thirdDate="2023-01-22" thirdDate-constraint="0" expand="true">
+                    <depend id="92" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="92" name="Develop Example/s" color="#0000ff" meeting="false" start="2023-03-16" duration="4" complete="0" thirdDate="2023-02-13" thirdDate-constraint="0" expand="true">
+                    <depend id="43" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="43" name="Create Written Tutorial" color="#0000ff" meeting="false" start="2023-03-20" duration="6" complete="0" thirdDate="2023-02-13" thirdDate-constraint="0" expand="true">
+                    <depend id="44" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="44" name="Create Video Tutorial" color="#0000ff" meeting="false" start="2023-03-26" duration="1" complete="0" thirdDate="2023-02-18" thirdDate-constraint="0" expand="true">
+                    <depend id="93" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="93" name="Update Sponsor w/ Progress" color="#0000ff" meeting="false" start="2023-03-27" duration="1" complete="0" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="49" name="FTA App" color="#990000" meeting="false" start="2023-03-26" duration="16" complete="0" thirdDate="2023-01-22" thirdDate-constraint="0" expand="true">
+                <task id="50" name="Familiarize Ourselves w/ app" color="#990000" meeting="false" start="2023-03-26" duration="4" complete="0" thirdDate="2023-01-22" thirdDate-constraint="0" expand="true">
+                    <depend id="94" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="94" name="Develop Example/s" color="#990000" meeting="false" start="2023-03-30" duration="4" complete="0" thirdDate="2023-01-09" thirdDate-constraint="0" expand="true">
+                    <depend id="51" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="51" name="Create Written Tutorial" color="#990000" meeting="false" start="2023-04-03" duration="6" complete="0" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true">
+                    <depend id="52" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="52" name="Create Video Tutorial" color="#990000" meeting="false" start="2023-04-09" duration="1" complete="0" thirdDate="2023-02-25" thirdDate-constraint="0" expand="true">
+                    <depend id="95" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="95" name="Update Sponsor w/ Progress" color="#990000" meeting="false" start="2023-04-10" duration="1" complete="0" thirdDate="2023-01-09" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="53" name="DPV App" color="#009900" meeting="false" start="2023-04-09" duration="16" complete="0" thirdDate="2023-01-22" thirdDate-constraint="0" expand="true">
+                <task id="54" name="Familiarize Ourselves w/ app" color="#009900" meeting="false" start="2023-04-09" duration="4" complete="0" thirdDate="2023-01-22" thirdDate-constraint="0" expand="true">
+                    <depend id="96" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="96" name="Develop Example/s" color="#009933" meeting="false" start="2023-04-13" duration="4" complete="0" thirdDate="2023-01-09" thirdDate-constraint="0" expand="true">
+                    <depend id="55" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="55" name="Create Written Tutorial" color="#009900" meeting="false" start="2023-04-17" duration="6" complete="0" thirdDate="2023-02-27" thirdDate-constraint="0" expand="true">
+                    <depend id="56" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="56" name="Create Video Tutorial" color="#009900" meeting="false" start="2023-04-23" duration="1" complete="0" thirdDate="2023-03-04" thirdDate-constraint="0" expand="true">
+                    <depend id="97" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="97" name="Update Sponsor w/ Progress" color="#009933" meeting="false" start="2023-04-24" duration="1" complete="0" thirdDate="2023-03-06" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="57" name="FuSa App" color="#990099" meeting="false" start="2023-04-23" duration="16" complete="0" thirdDate="2023-01-22" thirdDate-constraint="0" expand="true">
+                <task id="58" name="Familiarize Ourselves w/ app" color="#990099" meeting="false" start="2023-04-23" duration="4" complete="0" thirdDate="2023-01-22" thirdDate-constraint="0" expand="true">
+                    <depend id="98" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="98" name="Develop Example/s" color="#990099" meeting="false" start="2023-04-27" duration="4" complete="0" thirdDate="2023-01-09" thirdDate-constraint="0" expand="true">
+                    <depend id="59" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="59" name="Create Written Tutorial" color="#990099" meeting="false" start="2023-05-01" duration="6" complete="0" thirdDate="2023-03-06" thirdDate-constraint="0" expand="true">
+                    <depend id="60" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="60" name="Create Video Tutorial" color="#990099" meeting="false" start="2023-05-07" duration="1" complete="0" thirdDate="2023-03-11" thirdDate-constraint="0" expand="true">
+                    <depend id="99" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="99" name="Update Sponsor w/ Progress" color="#990099" meeting="false" start="2023-05-08" duration="1" complete="0" thirdDate="2023-03-13" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="112" name="Final Report Writing" color="#8cb6ce" meeting="false" start="2023-04-17" duration="28" complete="0" thirdDate="2023-01-08" thirdDate-constraint="0" expand="true"/>
+        <task id="115" name="Presentation w/ Synopsys and Dr. Song" color="#8cb6ce" meeting="false" start="2023-04-24" duration="5" complete="0" thirdDate="2023-03-05" thirdDate-constraint="0" expand="true"/>
+        <task id="113" name="Create Final Poster" color="#8cb6ce" meeting="false" start="2023-05-15" duration="14" complete="0" thirdDate="2023-04-16" thirdDate-constraint="0" expand="true"/>
+        <task id="114" name="PSU Capstone Poster Exhibition" color="#8cb6ce" meeting="false" start="2023-06-05" duration="5" complete="0" thirdDate="2023-03-05" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Mohamed Ghonim" function="2" contacts="" phone=""/>
+        <resource id="1" name="Alex Kim" function="2" contacts="" phone=""/>
+        <resource id="2" name="Ahliah Nordstrom" function="2" contacts="" phone=""/>
+        <resource id="3" name="Dmytro Prystupa" function="2" contacts="" phone=""/>
+        <resource id="4" name="Celina Wong" function="2" contacts="" phone=""/>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+    <roles>
+        <role id="1" name="Project Leader"/>
+        <role id="2" name="Project Manager"/>
+    </roles>
+</project>
