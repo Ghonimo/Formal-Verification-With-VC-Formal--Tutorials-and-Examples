@@ -1,4 +1,4 @@
-# VC Formal Documentation and Examples
+# VC Formal Tutorials
 ### 
 #### by VC Formal Capstone Team - Winter/Spring 2023
 ##
